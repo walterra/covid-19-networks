@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Great Barrington Declaration Network</title>
+      <!--
+         CONTINUE READING WITH CAUTION.
+
+         Your eyes will start bleeding once you see all
+         the quick and dirty spaghetti code.
+
+         YOU HAVE BEEN WARNED.
+      -->
+    <meta charset="UTF-8">
+    <meta property="og:title" content="The Great Barrington Declaration Network">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://walterra.github.io/covid-19-networks/the-great-barrington-declaration-network.jpg">
+    <meta property="og:url" content="https://walterra.github.io/covid-19-networks/index.html">
+    <meta property="twitter:title" content="The Great Barrington Declaration Network">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="https://walterra.github.io/covid-19-networks/the-great-barrington-declaration-network.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <style type="text/css">
+      html, body {
+        width: 100%;
+        height: 100%;
+        font: 10pt arial;
+        margin: 0;
+        padding: 0;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:steelblue;
+      }
+      #context-overlay {
+        position: absolute;
+        background: #d0d0d0;
+        margin: 16px;
+        padding: 0px;
+        width: 500px;
+        display: none;
+        z-index: 10000;
+        border: 3px solid #111;
+        border-radius: 5px;
+      }
+      #context-content {
+        padding: 0 16px 16px 16px;
+      }
+      #network-frame {
+        width: 75%; margin: 0 auto; height: 700px; display: block;
+      }
+      .text-section {
+        margin: 0 15%;
+      }
+      .text-section p {
+        width: 85%;
+      }
+      @media screen and (max-width: 600px) {
+        #network-frame {
+          width: 95%;
+          margin: 0 auto 15px auto;
+          height: 500px
+        }
+        .text-section p, .text-section h1 {
+          width: 95%;
+          margin: 0 auto 15px auto;
+        }
+        .text-section {
+          margin: 0;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="text-section">
+      <h1>The Great Barrington Declaration Network</h1>
+      <p>Last update: <a href="https://github.com/walterra/covid-19-at-network/blob/main/CHANGELOG.md" target="_BLANK">27.04.2020 01:30</a></p>
+    </div>
+    <iframe
+      id="network-frame"
+      src="network_frame.html"
+      title="The Great Barrington Declaration Network"
+      frameBorder="0"
+    ></iframe>
+    <div class="text-section">
+      <p><strong>How does the network visualization work?</strong> <br/>The graph is based on information about persons, institutions and their connections. For example, a connection might be <i>"Jay Bhattacharya is a co-author of The Great Barrington Declaration"</i> or <i>"AIER received $68,100 from Charles Koch Foundation"</i>.</p>
+      <p>A physical simluation calculates positions of nodes and edges in the graph: All nodes repel each other, but the edges pull connected nodes back together.</p>
+      <p><strong>What is this analysis able to deliver?</strong> <br />We speak of <i>emergence</i> if looking at a wider whole reveals insights we might not be able to see by just looking at each individual entity. The whole graph and its connections across nodes may reveal patterns otherwise unnoticed. This way the visualization might reveal insights into interconnections that contribute to desinformation spread related to COVID-10 in science communities, media and politics.</p>
+      <p>If you'd like to learn more about network analysis, here's a very brief list of related literature and projects:<br/>
+        - <a href="https://link.springer.com/chapter/10.1007/978-3-642-01915-9_11" target="_BLANK">Analyzing Organizational Structures Using Social Network Analysis</a>, Springer, 2009<br/>
+        - <a href="https://books.google.at/books/about/Social_Network_Analysis.html?id=Ww3_bKcz6kgC&redir_esc=y" target="_BLANK">Social Network Analysis: A Handbook</a>, SAGE, 2000<br/>
+        - <a href="https://www.goodreads.com/en/book/show/352411.Mark_Lombardi">Mark Lombardi: Global Networks</a>, Drawing Center, 2003<br/>
+        - <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/widm.1256">Social network analysis: An overview</a>, WIREs, 2018<br/>
+        - <a href="https://www.wiley.com/en-us/Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques%3A+A+Guide+to+Data+Science+for+Fraud+Detection-p-9781119133124">Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques</a>, WILEY, 2015
+      </p>
+    </div>
+    <div class="text-section">
+      <p>If you have suggestions for the visualization, please <a href="https://github.com/walterra/covid-19-at-network/issues" target="_BLANK">create a Github issue</a>.</p>
+      <br/><br/><!-- so old school -->
+    </div>
+  </body>
+</html>

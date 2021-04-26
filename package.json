@@ -1,0 +1,15 @@
+{
+  "name": "covid-19-networks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache License, Version 2.0",
+  "dependencies": {
+    "networkjs": "^0.1.1",
+    "vis-network": "^8.5.2"
+  }
+}
