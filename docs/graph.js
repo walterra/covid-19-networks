@@ -31,14 +31,14 @@ var rawNodes = [
   },
   {
     id: 'CG',
-    label: 'Collateral Global',
+    label: 'Collateral Global Ltd.',
     shape: "circularImage",
     image: "img/icon-institution.png"
   },
 
   {
     id: 'AIER',
-    label: 'AIER - American Institute for Economic Research',
+    label: 'AIER',
     shape: "circularImage",
     image: "img/icon-institution.png"
   },
@@ -47,7 +47,54 @@ var rawNodes = [
     label: 'Charles Koch Foundation',
     shape: "circularImage",
     image: "img/icon-institution.png"
-  }
+  },
+
+  {
+    id: 'at',
+    label: "Anders Tegnell",
+    shape: "circularImage",
+    image: "img/person-anders-tegnell.jpg"
+  },
+  {
+    id: 'jg',
+    label: "Johan Giesecke",
+    shape: "circularImage",
+    image: "img/person-johan-giesecke.jpg"
+  },
+  {
+    id: 'jc',
+    label: "Johan Carlson",
+    shape: "circularImage",
+    image: "img/person-johan-carlson.jpg"
+  },
+  {
+    id: 'fa',
+    label: "Franz Allerberger",
+    shape: "circularImage",
+    image: "img/person-franz-allerberger.jpg"
+  },
+
+  {
+    id: 'ECDC',
+    label: 'ECDC',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+
+  {
+    id: 'ESB',
+    label: 'Embassy of Sweden in Brazil',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+  {
+    id: 'AGES',
+    label: 'AGES',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+
+
 ];
 
 
@@ -58,14 +105,30 @@ var rawEdges = [
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
+  { from: 'mk', to: 'at', title: '"Thank you"-E-Mail', font: { align: "middle" } },
+  { from: 'mk', to: 'jg', title: '"Thank you"-E-Mail', font: { align: "middle" } },
 
   { from: 'sg', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'sg', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
 
   { from: 'ch', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
 
-  { from: 'CKF', to: 'AIER', title: 'sponsored by', font: { align: "middle" } },
-  { from: 'AIER', to: 'GBD', title: 'AIER received $68,100 from Charles Koch Foundation', font: { align: "middle" } },
+  { from: 'AIER', to: 'GBD', title: 'sponsored by', font: { align: "middle" } },
+  { from: 'CKF', to: 'AIER', title: 'AIER received $68,100 from Charles Koch Foundation', font: { align: "middle" } },
+
+
+  { from: 'jg', to: 'at', title: 'predecessor of', font: { align: "middle" } },
+
+  { from: 'jg', to: 'jc', title: 'hired', font: { align: "middle" } },
+
+  { from: 'jc', to: 'ECDC', title: 'Management Board Member', font: { align: "middle" } },
+
+
+  { from: 'at', to: 'ESB', title: 'Webinar', font: { align: "middle" } },
+  { from: 'at', to: 'AGES', title: 'Webinar', font: { align: "middle" } },
+
+  { from: 'fa', to: 'AGES', title: 'Head of Division Public Health', font: { align: "middle" } },
+  { from: 'fa', to: 'ECDC', title: 'Advisory Forum Alternate', font: { align: "middle" } },
 ];
 
 // global for node scripts
