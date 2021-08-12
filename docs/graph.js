@@ -93,8 +93,30 @@ var rawNodes = [
     shape: "circularImage",
     image: "img/icon-institution.png"
   },
-
-
+  {
+    id: 'rds',
+    label: 'Ron DeSantis',
+    shape: "circularImage",
+    image: "img/person-ron-desantis.jpg"
+  },
+  {
+    id: 'florida',
+    label: 'Florida',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+  {
+    id: 'cm',
+    label: 'Cody Meissner',
+    shape: "circularImage",
+    image: "img/person-cody-meissner.jpg"
+  },
+  {
+    id: 'mcd',
+    label: 'Mark McDonald',
+    shape: "circularImage",
+    image: "img/person-mark-mcdonald.jpg"
+  }
 ];
 
 
@@ -102,6 +124,7 @@ var rawNodes = [
 var rawEdges = [
   { from: 'jb', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'jb', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
+  { from: 'jb', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -129,6 +152,13 @@ var rawEdges = [
 
   { from: 'fa', to: 'AGES', title: 'Head of Division Public Health', font: { align: "middle" } },
   { from: 'fa', to: 'ECDC', title: 'Advisory Forum Alternate', font: { align: "middle" } },
+
+  { from: 'rds', to: 'florida', title: 'Governor of Florida', font: { align: "middle" } },
+
+  { from: 'cm', to: 'GBD', title: 'Co-signer', font: { align: "middle" } },
+  { from: 'cm', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
+
+  { from: 'mcd', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
 ];
 
 // global for node scripts
