@@ -115,10 +115,10 @@
           solver: 'forceAtlas2Based',
           forceAtlas2Based: {
             theta: 0.9,
-            gravitationalConstant: -80,
-            centralGravity: 0.005,
+            gravitationalConstant: -100,
+            centralGravity: 0.01,
             springConstant: 0.08,
-            springLength: 80,
+            springLength: 50,
             damping: 0.4,
             avoidOverlap: 10
           },
@@ -136,7 +136,6 @@
         edges: {
           color: "#666",
           width: 2,
-          // length: 250,
           value: 1,
           shadow: true,
           arrows: { middle: { enabled: true, scaleFactor: 0.2 }}
