@@ -116,15 +116,47 @@ var rawNodes = [
     label: 'Mark McDonald',
     shape: "circularImage",
     image: "img/person-mark-mcdonald.jpg"
+  },
+  {
+    id: 'ji',
+    label: 'John Ioannidis',
+    shape: "circularImage",
+    image: "img/person-john-ioannidis.jpg"
+  },
+  {
+    id: 'scs',
+    label: '"Santa Clara Study"',
+    shape: "circularImage",
+    image: "img/icon-media.png"
+  },
+  {
+    id: 'fox',
+    label: 'Fox News',
+    shape: "circularImage",
+    image: "img/icon-media.png"
+  },
+  {
+    id: 'dn',
+    label: 'David Neeleman',
+    shape: "circularImage",
+    image: "img/person-david-neeleman.jpg"
+  },
+  {
+    id: 'servustv',
+    label: 'ServusTV',
+    shape: "circularImage",
+    image: "img/icon-media.png"
   }
 ];
-
 
 
 var rawEdges = [
   { from: 'jb', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'jb', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
   { from: 'jb', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
+  { from: 'jb', to: 'scs', title: 'Co-Author', font: { align: "middle" } },
+  { from: 'jb', to: 'fox', title: 'The Next Revolution 12.04.2020', font: { align: "middle" } },
+  { from: 'jb', to: 'servustv', title: 'Interview "Auf der Suche nach der Wahrheit"', font: { align: "middle" } },
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -159,6 +191,16 @@ var rawEdges = [
   { from: 'cm', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
 
   { from: 'mcd', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
+
+  { from: 'ji', to: 'scs', title: 'Co-Author', font: { align: "middle" } },
+  // https://en.wikipedia.org/wiki/Life,_Liberty_%26_Levin
+  // https://www.washingtonpost.com/dc-md-va/2020/12/16/john-ioannidis-coronavirus-lockdowns-fox-news/
+  { from: 'ji', to: 'fox', title: 'Life, Liberty & Levin 19.04.2020\n(numerous other appearances on Fox News)', font: { align: "middle" } },
+  { from: 'ji', to: 'servustv', title: 'Interview with Michael Fleischhacker', font: { align: "middle" } },
+
+  // https://www.buzzfeednews.com/article/stephaniemlee/stanford-coronavirus-neeleman-ioannidis-whistleblower
+  { from: 'dn', to: 'scs', title: '"funded in part by"', font: { align: "middle" } },
+  { from: 'dn', to: 'fox', title: '"funded in part by"', font: { align: "middle" } },
 ];
 
 // global for node scripts

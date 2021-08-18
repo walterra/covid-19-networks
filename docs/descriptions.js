@@ -83,10 +83,12 @@ desc.jc = `
 Director General, Public Health Agency of Sweden
 `
 
+// Ron DeSantis
 desc.rds = `
 Governor of Florida
 `
 
+// Cody Meissner
 desc.cm = `
 Professor in the Department of Pediatrics at Tufts University School of Medicine
 
@@ -94,6 +96,7 @@ Professor in the Department of Pediatrics at Tufts University School of Medicine
 07.07.2021 - [absolutelymaybe.plos.org/](https://absolutelymaybe.plos.org/2021/07/07/a-worrying-drift-towards-exceptionalism-in-the-covid-vax-for-kids-debate/)
 `
 
+// Mark McDonald
 desc.mcd = `
 Clinical psychiatrist
 
@@ -104,3 +107,48 @@ Clinical psychiatrist
 In an email, McDonald confirmed to The Daily Beast that the various speakers provided their thoughts on why <i>"mandating masks for children in schools [is] not only unnecessary and unsupported by scientific evidence, but also harmful to children physically and psychologically."</i><br/>
 27.07.2021 - [thedailybeast.com](https://www.thedailybeast.com/florida-gov-ron-desantis-meets-with-mask-and-vaccine-skeptics-like-mark-mcdonald-despite-flooded-hospitals)
 `
+
+// John Ioannidis
+desc.ji = `
+Physician-scientist, writer and Stanford University professor
+
+<i>Ioannidis has been a prominent opponent of prolonged lockdowns during the COVID-19 pandemic. [...] Ioannidis widely promoted a study of which he had been co-author, "COVID-19 Antibody Seroprevalence in Santa Clara County, California". [...] The paper drew criticism from a number of epidemiologists who said its testing was inaccurate and its methods were sloppy.</i><br/>
+[wikipedia.com](https://en.wikipedia.org/wiki/John_Ioannidis)
+`
+
+// COVID-19 Antibody Seroprevalence in Santa Clara County, California
+desc.scs = `
+COVID-19 Antibody Seroprevalence in Santa Clara County, California
+
+https://www.medrxiv.org/content/10.1101/2020.04.14.20062463v1
+
+<i>A highly influential coronavirus antibody study was funded in part by David Neeleman, the JetBlue Airways founder and a vocal proponent of the idea that the pandemic isn’t deadly enough to justify continued lockdowns.</i><br/>
+[buzzfeed.com](https://www.buzzfeednews.com/article/stephaniemlee/stanford-coronavirus-neeleman-ioannidis-whistleblower)
+`
+
+// David Neeleman
+desc.dn = `
+Businessman and entrepreneur
+
+<i>"JetBlue’s Founder Helped Fund A Stanford Study That Said The Coronavirus Wasn’t That Deadly. A Stanford whistleblower complaint alleges that the controversial John Ioannidis study failed to disclose important financial ties and ignored scientists’ concerns that their antibody test was inaccurate."</i><br />
+[buzzfeed.com](https://www.buzzfeednews.com/article/stephaniemlee/stanford-coronavirus-neeleman-ioannidis-whistleblower)
+`
+
+// ServusTV
+desc.servustv = `
+TV Station owned by Austrian billionaire Dietrich Mateschitz
+
+A study from August 2021 claims that viewers of ServusTV tend to play down the virus, believe in conspiracy theories and view corona measures and vaccination more skeptically than non-viewers.<br />
+[science.apa.at](https://science.apa.at/power-search/5415237754144197625)
+
+<i>"Auf der Suche nach der Wahrheit / In Search of the Truth"</i><br/>
+Documentary featuring an interview with Jay Bhattacharya<br/>
+[servustv.com](https://www.servustv.com/aktuelles/v/aa-28a3dbyxh1w11/)
+
+<i>"Die große Corona-Abrechnung / The big Corona reckoning"</i></br>
+Interview with John Ioannidis<br/>
+[servustv.com](https://www.servustv.com/aktuelles/a/john-ioannidis-corona-abrechnung-talk-spezial-interview/129644/)
+
+
+`
+
