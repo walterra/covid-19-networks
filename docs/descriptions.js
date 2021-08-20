@@ -90,7 +90,8 @@ Governor of Florida
 
 // Cody Meissner
 desc.cm = `
-Professor in the Department of Pediatrics at Tufts University School of Medicine
+Professor in the Department of Pediatrics at Tufts University School of Medicine<br/>
+Member of the Food and Drug Administration immunization advisory panel
 
 <i>"We are asking children to accept the vaccine, to get immunized, to protect the adults. That isn’t necessary."</i><br/>
 07.07.2021 - [absolutelymaybe.plos.org](https://absolutelymaybe.plos.org/2021/07/07/a-worrying-drift-towards-exceptionalism-in-the-covid-vax-for-kids-debate)
@@ -101,8 +102,7 @@ Professor in the Department of Pediatrics at Tufts University School of Medicine
 
 // Mark McDonald
 desc.mcd = `
-Clinical psychiatrist<br/>
-Member of the Food and Drug Administration immunization advisory panel
+Clinical psychiatrist
 
 <i>"Masking children is child abuse",
 "Mental illness is a catastrophe in this country, primarily due to lockdowns in children, but the masks is not helping. The masks are nothing more than a symbol of fear and anxiety"</i><br/>
