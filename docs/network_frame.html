@@ -114,13 +114,13 @@
           enabled: true,
           solver: 'forceAtlas2Based',
           forceAtlas2Based: {
-            // theta: 0.99,
+            theta: 0.01,
             // gravitationalConstant: -200,
             // centralGravity: 0.02,
             // springConstant: 0.8,
             // springLength: 200,
             // damping: 1,
-            // avoidOverlap: 200
+            avoidOverlap: 1
           },
         },
         nodes: {
@@ -141,7 +141,7 @@
           arrows: { middle: { enabled: true, scaleFactor: 0.2 }}
         },
         layout: {
-          randomSeed: 1231
+          randomSeed: 1232
         },
         interaction: {
           zoomSpeed: 0.5

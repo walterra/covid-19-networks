@@ -146,8 +146,39 @@ var rawNodes = [
     label: 'ServusTV',
     shape: "circularImage",
     image: "img/icon-media.png"
+  },
+  {
+    id: 'jat',
+    label: 'Jeffrey A. Tucker',
+    shape: "circularImage",
+    image: "img/dummy-male.jpg"
+  },
+  {
+    id: 'JLF',
+    label: 'John Locke Foundation',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+  {
+    id: 'FDA',
+    label: 'FDA',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+  {
+    id: 'BI',
+    label: 'Brownstone Institute',
+    shape: "circularImage",
+    image: "img/icon-institution.png"
+  },
+  {
+    id: 'TGCP',
+    label: 'The Great COVID Panic',
+    shape: "circularImage",
+    image: "img/icon-media.png"
   }
 ];
+
 
 
 var rawEdges = [
@@ -157,11 +188,14 @@ var rawEdges = [
   { from: 'jb', to: 'scs', title: 'Co-Author', font: { align: "middle" } },
   { from: 'jb', to: 'fox', title: 'The Next Revolution 12.04.2020', font: { align: "middle" } },
   { from: 'jb', to: 'servustv', title: 'Interview "Auf der Suche nach der Wahrheit"', font: { align: "middle" } },
+  { from: 'jb', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
   { from: 'mk', to: 'at', title: '"Thank you"-E-Mail', font: { align: "middle" } },
   { from: 'mk', to: 'jg', title: '"Thank you"-E-Mail', font: { align: "middle" } },
+  { from: 'mk', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
+  { from: 'mk', to: 'TGCP', title: 'testimonial', font: { align: "middle" } },
 
   { from: 'sg', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'sg', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -189,6 +223,7 @@ var rawEdges = [
 
   { from: 'cm', to: 'GBD', title: 'Co-signer', font: { align: "middle" } },
   { from: 'cm', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
+  { from: 'cm', to: 'FDA', title: 'FDA Advisory Committee Member', font: { align: "middle" } },
 
   { from: 'mcd', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
 
@@ -201,6 +236,16 @@ var rawEdges = [
   // https://www.buzzfeednews.com/article/stephaniemlee/stanford-coronavirus-neeleman-ioannidis-whistleblower
   { from: 'dn', to: 'scs', title: '"funded in part by"', font: { align: "middle" } },
   { from: 'dn', to: 'fox', title: '"funded in part by"', font: { align: "middle" } },
+
+  // https://www.aier.org/staffs/jeffrey-tucker/
+  { from: 'jat', to: 'AIER', title: 'independent editorial consultant\nwho served as Editorial Director', font: { align: "middle" } },
+  // https://www.youtube.com/watch?v=I5gXS6z6NGY
+  { from: 'jat', to: 'JLF', title: 'Interview for the John Locke Foundation\'s "HeadLocke" podcast', font: { align: "middle" } },
+  { from: 'jat', to: 'BI', title: 'Founder and President', font: { align: "middle" } },
+
+  { from: 'BI', to: 'TGCP', title: 'Publisher', font: { align: "middle" } },
+
+
 ];
 
 // global for node scripts

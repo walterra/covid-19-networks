@@ -92,20 +92,24 @@ Governor of Florida
 desc.cm = `
 Professor in the Department of Pediatrics at Tufts University School of Medicine
 
-"We are asking children to accept the vaccine, to get immunized, to protect the adults. That isn’t necessary."<br/>
-07.07.2021 - [absolutelymaybe.plos.org/](https://absolutelymaybe.plos.org/2021/07/07/a-worrying-drift-towards-exceptionalism-in-the-covid-vax-for-kids-debate/)
+<i>"We are asking children to accept the vaccine, to get immunized, to protect the adults. That isn’t necessary."</i><br/>
+07.07.2021 - [absolutelymaybe.plos.org](https://absolutelymaybe.plos.org/2021/07/07/a-worrying-drift-towards-exceptionalism-in-the-covid-vax-for-kids-debate)
+
+<i>On his vote on Pfizer's coronavirus vaccine authorization: "I voted to abstain because I was a little uncomfortable with the inclusion of 16- and 17-year-old adolescents in that request for authorization. [...] Particularly people under 20 years of age, they are getting infected. No question about it. But they're not getting sick."</i><br/>
+10.12.2021 - [npr.org](https://www.npr.org/2020/12/10/945228941/fda-advisory-committee-member-on-vote-on-pfizers-coronavirus-vaccine-authorizati?t=1629382672193&t=1629491708443)
 `
 
 // Mark McDonald
 desc.mcd = `
-Clinical psychiatrist
+Clinical psychiatrist<br/>
+Member of the Food and Drug Administration immunization advisory panel
 
 <i>"Masking children is child abuse",
 "Mental illness is a catastrophe in this country, primarily due to lockdowns in children, but the masks is not helping. The masks are nothing more than a symbol of fear and anxiety"</i><br/>
 27.07.2021 - Roundtable with Ron DeSantis, Governor of Florida
 
 In an email, McDonald confirmed to The Daily Beast that the various speakers provided their thoughts on why <i>"mandating masks for children in schools [is] not only unnecessary and unsupported by scientific evidence, but also harmful to children physically and psychologically."</i><br/>
-27.07.2021 - [thedailybeast.com](https://www.thedailybeast.com/florida-gov-ron-desantis-meets-with-mask-and-vaccine-skeptics-like-mark-mcdonald-despite-flooded-hospitals)
+27.07.2020 - [thedailybeast.com](https://www.thedailybeast.com/florida-gov-ron-desantis-meets-with-mask-and-vaccine-skeptics-like-mark-mcdonald-despite-flooded-hospitals)
 `
 
 // John Ioannidis
@@ -148,7 +152,35 @@ Documentary featuring an interview with Jay Bhattacharya<br/>
 <i>"Die große Corona-Abrechnung / The big Corona reckoning"</i></br>
 Interview with John Ioannidis<br/>
 [servustv.com](https://www.servustv.com/aktuelles/a/john-ioannidis-corona-abrechnung-talk-spezial-interview/129644/)
-
-
 `
 
+// Jeffrey A. Tucker
+desc.jat = `
+<i>Jeffrey A. Tucker is an independent editorial consultant who served as Editorial Director for the American Institute for Economic Research (2017-2021).</i><br/>
+[aier.org](https://www.aier.org/staffs/jeffrey-tucker/)
+
+<i>He is an American economics writer of the Austrian School and an advocate of anarcho-capitalism. [...] During the Covid-19 Pandemic, Tucker has blogged in opposition to social distancing measures and face masks, framing them as subservience to "arbitrary and ignorant authority".</i><br/>
+[wikipedia.org](https://en.wikipedia.org/wiki/Jeffrey_Tucker)
+`
+
+// John Locke Foundation
+desc.JLF = `
+Conservative think tank based in North Carolina
+
+<i>"Our John Sanders has written repeatedly how the science and the data don't support a state of emergency, or being afraid of COVID, or being afraid of each other."</i><br/>
+Amy O. Cooke, CEO John Locke Foundation - 21.05.2021, [facebook.com](https://www.facebook.com/johnlockefoundation/posts/10157822879567301)
+`
+
+// Brownstone Institute
+desc.BI = `
+Institute for Social and Economic Research, a nonprofit organization founded May 2021 by Jeffrey A. Tucker after his departure from AIER as Editorial Director.
+
+Calls itself the <i>"spiritual child of the Great Barrington Declaration"</i>.<br/>
+[brownstone.org](https://brownstone.org/about/)
+`
+
+// The Great COVID Panic
+desc.TGCP = `
+<i>"The Brownstone Institute is pleased to announce the impending publication of The Great Covid Panic: What Happened, Why, and What To Do Next, by Paul Frijters, Gigi Foster, and Michael Baker."</i><br/>
+[brownstone.org](https://brownstone.org/articles/the-great-covid-panic-by-frijters-foster-and-baker-available-september-2021)
+`
