@@ -219,6 +219,7 @@ var rawEdges = [
 
   { from: 'AIER', to: 'GBD', title: 'sponsored by', font: { align: "middle" } },
   { from: 'CKF', to: 'AIER', title: 'received $68,100 from Charles Koch Foundation', font: { align: "middle" } },
+  // https://www.desmog.com/2018/12/04/spiked-lm-dark-money-koch-brothers/
   { from: 'CKF', to: 'spiked', title: 'received $300,000 from the Charles Koch Foundation', font: { align: "middle" } },
   { from: 'CKF', to: 'RM', title: 'received $1 million from the Charles Koch Foundation', font: { align: "middle" } },
 

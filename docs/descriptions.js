@@ -112,7 +112,7 @@ Clinical psychiatrist
 27.07.2021 - Roundtable with Ron DeSantis, Governor of Florida
 
 In an email, McDonald confirmed to The Daily Beast that the various speakers provided their thoughts on why <i>"mandating masks for children in schools [is] not only unnecessary and unsupported by scientific evidence, but also harmful to children physically and psychologically."</i><br/>
-27.07.2020 - [thedailybeast.com](https://www.thedailybeast.com/florida-gov-ron-desantis-meets-with-mask-and-vaccine-skeptics-like-mark-mcdonald-despite-flooded-hospitals)
+27.07.2021 - [thedailybeast.com](https://www.thedailybeast.com/florida-gov-ron-desantis-meets-with-mask-and-vaccine-skeptics-like-mark-mcdonald-despite-flooded-hospitals)
 `
 
 // John Ioannidis
