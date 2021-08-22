@@ -176,6 +176,18 @@ var rawNodes = [
     label: 'The Great COVID Panic',
     shape: "circularImage",
     image: "img/icon-media.png"
+  },
+  {
+    id: 'spiked',
+    label: 'sp!ked',
+    shape: "circularImage",
+    image: "img/icon-media.png"
+  },
+  {
+    id: 'RM',
+    label: 'Reason Magazine',
+    shape: "circularImage",
+    image: "img/icon-media.png"
   }
 ];
 
@@ -196,14 +208,19 @@ var rawEdges = [
   { from: 'mk', to: 'jg', title: '"Thank you"-E-Mail', font: { align: "middle" } },
   { from: 'mk', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
   { from: 'mk', to: 'TGCP', title: 'testimonial', font: { align: "middle" } },
+  { from: 'mk', to: 'RM', title: 'SOHO Forum 13.12.2020', font: { align: "middle" } },
 
   { from: 'sg', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'sg', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
 
   { from: 'ch', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
+  // https://www.spiked-online.com/2021/07/23/the-harm-done-by-lockdown-will-last-for-decades/
+  { from: 'ch', to: 'spiked', title: 'Interview 23.07.2021', font: { align: "middle" } },
 
   { from: 'AIER', to: 'GBD', title: 'sponsored by', font: { align: "middle" } },
-  { from: 'CKF', to: 'AIER', title: 'AIER received $68,100 from Charles Koch Foundation', font: { align: "middle" } },
+  { from: 'CKF', to: 'AIER', title: 'received $68,100 from Charles Koch Foundation', font: { align: "middle" } },
+  { from: 'CKF', to: 'spiked', title: 'received $300,000 from the Charles Koch Foundation', font: { align: "middle" } },
+  { from: 'CKF', to: 'RM', title: 'received $1 million from the Charles Koch Foundation', font: { align: "middle" } },
 
 
   { from: 'jg', to: 'at', title: 'predecessor of', font: { align: "middle" } },

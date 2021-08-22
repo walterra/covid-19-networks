@@ -44,6 +44,9 @@ desc.ch = `
 Professor of Evidence Based Medicine, [University of Oxford](https://www.phc.ox.ac.uk/team/carl-heneghan)
 
 Scientific Advisory Board [Collateral Damage](https://collateralglobal.org/about)
+
+<i>"If you build up immunity among the young, you get a better barrier against the spread of the virus through the rest of society."</i><br/>
+[spiked-online.com](https://www.spiked-online.com/2021/07/23/the-harm-done-by-lockdown-will-last-for-decades/)
 `
 
 // Martin Kulldorff
@@ -184,3 +187,23 @@ desc.TGCP = `
 <i>"The Brownstone Institute is pleased to announce the impending publication of The Great Covid Panic: What Happened, Why, and What To Do Next, by Paul Frijters, Gigi Foster, and Michael Baker."</i><br/>
 [brownstone.org](https://brownstone.org/articles/the-great-covid-panic-by-frijters-foster-and-baker-available-september-2021)
 `
+
+// sp!ked
+desc.spiked = `
+British Internet Magazine
+
+<i>"That Spiked magazine’s US funding arm received $300,000 from the Charles Koch Foundation suggests a hidden agenda."</i><br/>
+[theguardian.com](https://www.theguardian.com/commentisfree/2018/dec/07/us-billionaires-hard-right-britain-spiked-magazine-charles-david-koch-foundation)
+`
+
+// Reason Magazine
+desc.RM = `
+"Free Minds and Free Markets"
+
+<i>"A Group of Scientists Wants To Reopen Society. Here's What Everyone Is Getting Wrong About What They Said."</i><br/>
+10.12.2020, [reason.com](https://reason.com/2020/10/12/great-barrington-declaration-covid-19-scientists-want-to-reopen-society-heres-what-everyone-is-getting-wrong-about-what-they-said/)
+
+<i>"What Disney Can Teach Us About Covid-19: Lockdowns Fail"</i><br/>
+[youtube.com/ReasonTV](https://www.youtube.com/watch?v=acesJvzIjKI)
+`
+
