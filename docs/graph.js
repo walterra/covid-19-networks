@@ -275,7 +275,6 @@ var rawEdges = [
 
   // https://www.buzzfeednews.com/article/stephaniemlee/stanford-coronavirus-neeleman-ioannidis-whistleblower
   { from: 'dn', to: 'scs', title: '"funded in part by"', font: { align: "middle" } },
-  { from: 'dn', to: 'fox', title: '"funded in part by"', font: { align: "middle" } },
 
   // https://www.aier.org/staffs/jeffrey-tucker/
   { from: 'jat', to: 'AIER', title: 'independent editorial consultant\nwho served as Editorial Director', font: { align: "middle" } },
