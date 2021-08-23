@@ -151,7 +151,7 @@ var rawNodes = [
     id: 'jat',
     label: 'Jeffrey A. Tucker',
     shape: "circularImage",
-    image: "img/dummy-male.jpg"
+    image: "img/person-jeffrey-tucker.jpg"
   },
   {
     id: 'JLF',
@@ -188,6 +188,24 @@ var rawNodes = [
     label: 'Reason Magazine',
     shape: "circularImage",
     image: "img/icon-media.png"
+  },
+  {
+    id: 'lj',
+    label: 'Lucy Johnston',
+    shape: "circularImage",
+    image: "img/person-lucy-johnston.jpg"
+  },
+  {
+    id: 'SE',
+    label: 'Sunday Express',
+    shape: "circularImage",
+    image: "img/icon-media.png"
+  },
+  {
+    id: 'SNO',
+    label: 'Sketch notes on ...',
+    shape: "circularImage",
+    image: "img/icon-media.png"
   }
 ];
 
@@ -201,6 +219,8 @@ var rawEdges = [
   { from: 'jb', to: 'fox', title: 'The Next Revolution 12.04.2020', font: { align: "middle" } },
   { from: 'jb', to: 'servustv', title: 'Interview "Auf der Suche nach der Wahrheit"', font: { align: "middle" } },
   { from: 'jb', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
+  // https://www.express.co.uk/comment/expresscomment/1480182/covid-war-over-no-more-lockdowns-coronavirus-comment
+  { from: 'jb', to: 'SE', title: 'Op-ed', font: { align: "middle" } },
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -212,6 +232,8 @@ var rawEdges = [
 
   { from: 'sg', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'sg', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
+  // https://twitter.com/thelucyjohnston/status/1376110858133250049
+  { from: 'sg', to: 'SE', title: '"Exclusive" Article', font: { align: "middle" } },
 
   { from: 'ch', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
   // https://www.spiked-online.com/2021/07/23/the-harm-done-by-lockdown-will-last-for-decades/
@@ -262,6 +284,13 @@ var rawEdges = [
   { from: 'jat', to: 'BI', title: 'Founder and President', font: { align: "middle" } },
 
   { from: 'BI', to: 'TGCP', title: 'Publisher', font: { align: "middle" } },
+
+  // https://www.lucyjohnstonjournalist.com/
+  { from: 'at', to: 'lj', title: 'Interview', font: { align: "middle" } },
+  { from: 'lj', to: 'SE', title: 'Health and Social Affairs Editor', font: { align: "middle" } },
+  { from: 'lj', to: 'SNO', title: 'Podcast Host', font: { align: "middle" } },
+  { from: 'mk', to: 'SNO', title: 'Podcast Guest 10.08.2021', font: { align: "middle" } },
+  { from: 'sg', to: 'SNO', title: 'Podcast Guest 10.08.2021', font: { align: "middle" } },
 
 
 ];

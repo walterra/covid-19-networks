@@ -207,3 +207,32 @@ desc.RM = `
 [youtube.com/ReasonTV](https://www.youtube.com/watch?v=acesJvzIjKI)
 `
 
+// Lucy Johnston
+desc.lj = `
+Health and Social Affairs Editor at Sunday Express
+Hosts the Sunday Express' podcast 'Sketch notes on...'
+
+<i>"She continues to work closely with leading scientists, clinicians, charities and MP's from across the spectrum to provide balanced and novel perspectives of the virus and the societal impact of lockdown measures. This includes a live interview with the architect of Sweden's "soft lockdown" Anders Tegnell. [...] Lucy has been ahead of the curve in throwing a spotlight on the collateral costs [...]. Lucy helped run a newspaper campaign to highlight the effects of lockdown measures to children and teenagers."</i><br/>
+[lucyjohnstonjournalist.com](https://www.lucyjohnstonjournalist.com/)
+
+<i>"Specialist health journalist Lucy Johnston, whose previous work includes Doctor's MMR fears, Exclusive: Experts cast doubt on claim for 'wonder' cancer jabs, Children 'used as guinea pigs for vaccines', Dangers Of MMR jab 'covered up', Teenage girls sue over cancer jab, Jab makers linked to vaccine programme, and many more, including a memorable bad science story, Suicides 'linked to phone masts'."</i><br/>
+[theguardian.com](https://www.theguardian.com/science/2009/oct/10/ben-goldacre-cervical-cancer-jab)
+`
+
+// Sunday Express
+desc.SE = `
+Sister paper of Daily Express, conservative tabloid newspaper
+
+<i>"The war on Covid should be over - We do not need lockdowns. During the Vietnam war, generals counted enemy casualties as a marker of progress. Every enemy body bag was a step towards victory, up until the war was lost. It was a poor surrogate marker that moved policy in a disastrously wrong direction. Instead of body bags, we now count the number of people who test positive for the virus that causes the disease."</i><br/>
+Jay Bhattacharya, 22.08.2021 [express.co.uk](https://www.express.co.uk/comment/expresscomment/1480182/covid-war-over-no-more-lockdowns-coronavirus-comment)
+`
+
+// Sketch on Notes
+desc.SNO = `
+Podcast curated by Daniel Spiller hosted by Lucy Johnston and Matt Gibson of the Sunday Express.
+
+[twitter.com/sketchnoteson](https://twitter.com/sketchnoteson)<br/>
+[youtube.com/channel/*](https://www.youtube.com/channel/UClmOb3Al-Ven8DV4PhjdZow)
+`
+
+
