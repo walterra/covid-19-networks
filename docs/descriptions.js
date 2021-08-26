@@ -235,4 +235,37 @@ Podcast curated by Daniel Spiller hosted by Lucy Johnston and Matt Gibson of the
 [youtube.com/channel/*](https://www.youtube.com/channel/UClmOb3Al-Ven8DV4PhjdZow)
 `
 
+// On the Futility of Contact Tracing
+desc.OTFOCT = `
+by Jay Bhattacharya & Mikko Packalen
 
+[inference-review.com](https://inference-review.com/article/on-the-futility-of-contact-tracing)
+`
+
+// Inference Review
+desc.INFERENCE = `
+Non peer-reviewed journal
+
+<i>"Junk Science or the Real Thing? ‘Inference’ Publishes Both."</i><br />
+[undark.org](https://undark.org/2019/01/28/junk-science-or-real-thing-inference/)
+`
+
+// Auzen LLC
+desc.ALLC = `
+<i>"Those tax returns reveal that Inference’s entire operating budget came from $1.7 million in donations during its first three years (through August 2017, the latest reports available). These donations came from a single donor: Auzen LLC. Looking at corporate tax reports and other registration documents, it’s unclear whether Auzen LLC and another entity, Auzen Corporation, are involved in activities other than funding Inference. But those documents make it clear that Auzen LLC and Auzen Corporation are run by the same people — and they also state that the sole director of Auzen Corporation is Peter Thiel."</i><br/>
+[undark.org](https://undark.org/2019/01/28/junk-science-or-real-thing-inference/)
+`
+
+// Peter Thiel
+desc.pt = `
+Conservative venture capitalist
+
+In May 2021, <i>"Rumble said it is receiving an investment from a group of prominent conservative venture capitalists including Peter Thiel and “Hillbilly Elegy” author J.D. Vance, financial backing that comes as the YouTube alternative’s popularity has surged among right-leaning users."</i><br/>
+[wsj.com](https://www.wsj.com/articles/peter-thiel-j-d-vance-invest-in-rumble-video-platform-popular-on-political-right-11621447661)
+`
+
+// Rumble Video Platform
+desc.RUMBLE = `
+<i>"Rumble doesn’t just accept harmful content, it amplifies it. Journalists reviewing the platform’s recommendation system found that if a person were to search the term “vaccine” on Rumble, they would be three times more likely to be recommended videos containing COVID-19 misinformation than accurate information."</i><br/>
+[theconversation.com](https://theconversation.com/meet-rumble-canadas-new-free-speech-platform-and-its-impact-on-the-fight-against-online-misinformation-163343)
+`

@@ -27,13 +27,13 @@ var rawNodes = [
     id: 'GBD',
     label: "Great Barrington Declaration",
     shape: "circularImage",
-    image: "img/icon-media.png"
+    image: "img/icon-quote.png"
   },
   {
     id: 'CG',
     label: 'Collateral Global Ltd.',
     shape: "circularImage",
-    image: "img/icon-institution.png"
+    image: "img/icon-company.png"
   },
 
   {
@@ -127,7 +127,7 @@ var rawNodes = [
     id: 'scs',
     label: '"Santa Clara Study"',
     shape: "circularImage",
-    image: "img/icon-media.png"
+    image: "img/icon-quote.png"
   },
   {
     id: 'fox',
@@ -175,7 +175,7 @@ var rawNodes = [
     id: 'TGCP',
     label: 'The Great COVID Panic',
     shape: "circularImage",
-    image: "img/icon-media.png"
+    image: "img/icon-quote.png"
   },
   {
     id: 'spiked',
@@ -206,10 +206,44 @@ var rawNodes = [
     label: 'Sketch notes on ...',
     shape: "circularImage",
     image: "img/icon-media.png"
+  },
+  {
+    id: 'OTFOCT',
+    label: 'On the Futility\nof Contact Tracing',
+    shape: "circularImage",
+    image: "img/icon-quote.png"
+  },
+  {
+    id: 'INFERENCE',
+    label: 'Inference',
+    shape: "circularImage",
+    image: "img/icon-media.png"
+  },
+  {
+    id: 'ALLC',
+    label: 'Auzen LLC',
+    shape: "circularImage",
+    image: "img/icon-company.png"
+  },
+  // {
+  //   id: 'AC',
+  //   label: 'Auzen Corporation',
+  //   shape: "circularImage",
+  //   image: "img/icon-company.png"
+  // },
+  {
+    id: 'pt',
+    label: 'Peter Thiel',
+    shape: "circularImage",
+    image: "img/person-peter-thiel.jpg"
+  },
+  {
+    id: 'RUMBLE',
+    label: 'Rumble',
+    shape: "circularImage",
+    image: "img/icon-media.png"
   }
 ];
-
-
 
 var rawEdges = [
   { from: 'jb', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
@@ -221,6 +255,8 @@ var rawEdges = [
   { from: 'jb', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
   // https://www.express.co.uk/comment/expresscomment/1480182/covid-war-over-no-more-lockdowns-coronavirus-comment
   { from: 'jb', to: 'SE', title: 'Op-ed', font: { align: "middle" } },
+  // https://inference-review.com/article/on-the-futility-of-contact-tracing
+  { from: 'jb', to: 'OTFOCT', title: 'Op-ed 09.2020', font: { align: "middle" } },
 
   { from: 'mk', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'mk', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -229,6 +265,8 @@ var rawEdges = [
   { from: 'mk', to: 'BI', title: 'Senior Scholar', font: { align: "middle" } },
   { from: 'mk', to: 'TGCP', title: 'testimonial', font: { align: "middle" } },
   { from: 'mk', to: 'RM', title: 'SOHO Forum 13.12.2020', font: { align: "middle" } },
+  // https://inference-review.com/letter/contact-tracing-and-consequences
+  { from: 'mk', to: 'OTFOCT', title: 'Supporting response, May 2021', font: { align: "middle" } },
 
   { from: 'sg', to: 'GBD', title: 'Co-Author', font: { align: "middle" } },
   { from: 'sg', to: 'CG', title: 'Scientific Advisory Board', font: { align: "middle" } },
@@ -260,6 +298,7 @@ var rawEdges = [
   { from: 'fa', to: 'ECDC', title: 'Advisory Forum Alternate', font: { align: "middle" } },
 
   { from: 'rds', to: 'florida', title: 'Governor of Florida', font: { align: "middle" } },
+  { from: 'rds', to: 'RUMBLE', title: 'Video channel', font: { align: "middle" } },
 
   { from: 'cm', to: 'GBD', title: 'Co-signer', font: { align: "middle" } },
   { from: 'cm', to: 'rds', title: 'Roundtable 27.07.2021', font: { align: "middle" } },
@@ -291,6 +330,11 @@ var rawEdges = [
   { from: 'mk', to: 'SNO', title: 'Podcast Guest 10.08.2021', font: { align: "middle" } },
   { from: 'sg', to: 'SNO', title: 'Podcast Guest 10.08.2021', font: { align: "middle" } },
 
+  { from: 'INFERENCE', to: 'OTFOCT', title: 'published 09.2020', font: { align: "middle" } },
+  { from: 'ALLC', to: 'INFERENCE', title: '$1.7 million in donations', font: { align: "middle" } },
+  { from: 'pt', to: 'ALLC', title: 'Director', font: { align: "middle" } },
+  { from: 'pt', to: 'RUMBLE', title: 'Investor', font: { align: "middle" } },
+  // { from: 'AC', to: 'INFERENCE', title: 'published 09.2020', font: { align: "middle" } },
 
 ];
 
