@@ -158,7 +158,7 @@
           contextOverlay.innerHTML = `
             <button id="close-button" onclick="closeContextOverlay()">X</button>
             <div id="context-content">
-            ${marked(`# ${node.label.replace('\n', ' ')}\n\n${desc[nodeId]}`)}
+            ${marked.parse(`# ${node.label.replace('\n', ' ')}\n\n${desc[nodeId]}`)}
             </div>
           `;
           var links = contextOverlay.getElementsByTagName('a');
